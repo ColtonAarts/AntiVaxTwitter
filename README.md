@@ -1,4 +1,4 @@
 # AntiVaxTwitter
 Tweets used for classification of anti and pro vax
 
-The file contains all the tweets that were used in creation of the classifiers described in the paper that have not been deleted from Twitter. The file is seperated into two columns using a "~". The first column is the TweetId and the second is the label that the Tweet was given. As it is against Twitters terms and conditions to share the text these IDs will suffice. However, some of the original training data has been removed from Twitter and is no longer accessable.
+The training files contain all the tweets used to create the classifer that have not been deleted from Twitter. They have the tweet id and the label. -1 is anti vax, 1 is pro vax and 0 is neutral. The other file contains all the tweet ids used for the clustering.
